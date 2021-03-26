@@ -2,31 +2,68 @@
 
 > Limit to one sentence (maximum of 255 characters, including spaces)
 
-> 244 characters
+> 169 characters
+
+To support the continued maintenance, growth, development, and community
+engagement of Matplotlib, the foundational plotting library of the Scientific
+Python Ecosystem.
+
+
+## Round 3 version
 
 To enable Matplotlib to continue as the core plotting library of the Scientific
 Python Ecosystem, we will address the maintenance backlog and continue
 Matplotlib's evolution to meet the community’s visualization challenges for the
 next decade.
 
+
 # Proposal Summary/Scope of Work (required):
 
 > Provide a short summary of the application (maximum of 500 words)
 
 Matplotlib is the foundational data visualization library for the Scientific
-Python Ecosystem, with over a million users, including researchers in
-bio-medical imaging, microscopy, and genomics. It has been actively developed
-and maintained by a vibrant, primarily volunteer, community for the past 18
-years.  In the past 15 months, with supported developers, we reduced our
-backlog of open Issues and Pull Requests. This is a marked change from the
-previous few years, when both were steadily increasing with only volunteer
-effort. We propose to support 0.9 FTE of effort to continue maintenance,
-mid-sized enhancements, and user support.  This has the direct effect of
-improving the library for our users and improving the experience of our
-contributors and community.
+Python Ecosystem, with over a million users, for creating static, animated, and
+interactive visualizations.  Matplotlib is used both directly and indirectly,
+via CZI funded projects such as scikit-learn, CellProfiler, scanpy, starfish,
+nipy, MNE-python, and scikit-image, by researchers in bio-medical imaging,
+microscopy, and genomics.  For the past 18 years Matplotlib has been maintained
+by a vibrant, primarily volunteer, community.  However, we have grown to the
+point where we need supported developers with the time to organize, plan, and
+make decisions.
 
-We also propose committing approximately a quarter of FTE to community
-maintenance, inculding goverance.
+
+The continued maintenance of the library is the primary component of the
+proposed work.  Maintenance covers a wide range of tasks including triaging bug
+reports, fixing bugs, reviewing Pull Requests, tagging releases, and keeping
+the continuous integration services running.  These tasks are essential for the
+project's health; though each individually is small, they are frequently time
+critical and tedious.  They are best handled by a paid developer because it is
+unfair and impractical to rely solely on volunteers to accomplish such tasks.
+In addition, having these tasks promptly and reliably addressed improves the
+contribution experience for everyone working on the project.  We propose to
+devote three quarters of a developer's time to handling these tasks.
+
+In addition to routine maintenance tasks, there are substantial but incremental
+1improvements that require long blocks of dedicated work.  Examples of this
+work include fixing long-standing rendering and performance issues, deep-dive
+documentation, homogenizing and smoothing the API, and new user-facing
+functionality.  Without funding, this type of project can drag out for months
+or stall altogether. We propose to complete 4 such medium-sized, self-contained
+projects per year with about a 20% of an FTE.  These projects will be selected
+in consultation with down-stream bio-libraries.
+
+
+We propose dedicating a 20% FTE (distributed across funded personnel) to
+community maintenance, including governance, outreach, communications, and
+moderation.  They will also facilitate discussions around proposed
+enhancements, features, and API changes.  The requested support is intended to
+complement, not replace, crucial volunteer work.
+
+For the past 15 months (starting Jan 2020), funding from CZI has allowed us to
+have supported developers working on Matplotlib which has been immensely
+valuable.  This has the direct effect of improving the library for our users
+and improving the experience of our contributors and community.
+
 
 
 
@@ -41,14 +78,14 @@ maintenance, inculding goverance.
 > currently 174 words (lifted from cycle 3 text)
 
 Matplotlib is the most widely used and de-facto standard visualization library
-in Python (over 1M monthly users) and is a mature library (17+ years old) with
+in Python (over 1M monthly users) and is a mature library (18+ years old) with
 over 1,250 individual code contributors.  In addition to being directly used by
-scientists, it is central to many libraries and applications that implement
-domain-specific visualizations, including CZI funded projects such as
-scikit-learn, CellProfiler, scanpy, starfish, nipy, and scikit-image. To aid
-users in discovering these extensions we have recently been assigned a Trove
-classifier on PyPI [1] (which we applied for due to a conversation at the first
-CZI EOSS summit).
+scientists, it is a core dependency of libraries and applications that
+implement domain-specific visualizations, including CZI funded projects such as
+scikit-learn, CellProfiler, scanpy, starfish, nipy, MNE-python, and
+scikit-image. To aid users in discovering these extensions we have recently
+been assigned a Trove classifier on PyPI [1] (which we applied for due to a
+conversation at the first CZI EOSS summit).
 
 Given the centrality of visualization to data analysis across all domains, no
 single tool can satisfy all needs.  There are a range of tools not built on
