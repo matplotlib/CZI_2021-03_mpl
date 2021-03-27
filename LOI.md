@@ -21,39 +21,36 @@ next decade.
 
 > Provide a short summary of the application (maximum of 500 words)
 
-> currenly 511 words
+> currently 439 words
 
 Matplotlib is the foundational data visualization library for the Scientific
-Python Ecosystem for creating static, animated, and
-interactive visualizations.   Matplotlib has over a million users,
-including researchers in bio-medical imaging, microscopy, and genomics.
-Scientists use Matplotlib both both directly and indirectly via CZI funded
-projects such as scikit-learn, CellProfiler, scanpy, starfish,
-nipy, MNE-python, and scikit-image.
-For the past 18 years Matplotlib has been maintained by a vibrant, primarily
-volunteer, community.  However, we have grown to the point where we need
-supported developers with the time to organize, plan, and make decisions.
+Python Ecosystem, with over a million users, including researchers in
+bio-medical imaging, microscopy, and genomics.  Researchers use Matplotlib both
+both directly and indirectly via other CZI funded projects such as
+scikit-learn, CellProfiler, scanpy, starfish, nipy, MNE-python, and
+scikit-image.  For the past 18 years Matplotlib has been maintained by a
+vibrant, primarily volunteer, community.  Via EOSS Round 1 and 3 CZI has
+supported Matplotlib development and this support has been invaluable to the
+project.
 
-The continued maintenance of the library is the primary component of the
-proposed work.  Maintenance covers a wide range of tasks including triaging bug
+The primary component of the proposed work is the continued maintenance of the
+library.  Maintenance covers a wide range of tasks including triaging bug
 reports, fixing bugs, reviewing Pull Requests, tagging releases, and keeping
-the continuous integration services running.  Issues and PRs are submitted
-faster than our volunteers can review them.  There may be critical bug reports
-or insightful feature requests among the former, while among the latter are
-useful contributions or bug fixes that would improve Matplotlib for direct
-users and downstream packages. The backlog is discouraging for new and
-occasional contributors and distracting for core developers.
-
-
-These tasks are essential for the project's health; though each individually is
-small, they are frequently time critical and tedious.  They are best handled by
-a paid developer because it is unfair and impractical to rely solely on
-volunteers to accomplish such tasks.  In addition, having these tasks promptly
-and reliably addressed improves the contribution experience for everyone
+the continuous integration services running.  These tasks are essential for the
+project's health; though each individually is small, they are frequently time
+critical and tedious.  They are best handled by a paid developer because it is
+unfair and impractical to rely solely on volunteers to accomplish such tasks.
+In particular, Issues and PRs are submitted faster than our volunteers can
+review them.  There may be critical bug reports or insightful feature requests
+among the former, while among the latter are useful contributions or bug fixes
+that would improve Matplotlib for direct users and downstream packages.  The
+backlog is discouraging for new and occasional contributors and distracting for
+core developers.  Having maintenance tasks promptly and reliably addressed and
+reducing the Issue/PR backlog improves the contribution experience for everyone
 working on the project.  We propose to devote three quarters of a developer's
 time to handling these tasks.
 
-In addition to routine and on-going maintenance tasks, there are substantial,
+In addition to on-going and routine maintenance tasks, there are substantial,
 but incremental, improvements that require long blocks of dedicated work to
 implement.  Examples of this work include fixing long-standing rendering and
 performance issues, deep-dive documentation, homogenizing and smoothing the
@@ -66,19 +63,10 @@ projects will be selected in consultation with down-stream bio-libraries.
 Matplotlib is a community-driven project with individuals at at all levels of
 engagement, from community members whom we need to primarily convey information
 to to developers who are co-creating the library.  We need to ensure that there
-is paths for people to join and change their role within community.
-We run several open-to-the-public spaces that require moderation.  We need to
-facilitate discussions around proposed enhancements, features, and API changes.
-We propose dedicating a 20% FTE to community maintenance, including governance,
-outreach, communications, and moderation.
-
-
-The requested support is intended to complement, not replace, crucial volunteer
-work.  For the past 15 months (starting Jan 2020), funding from CZI has allowed
-us to have supported developers working on Matplotlib which has been immensely
-valuable.  This has the direct effect of improving the library for our users
-and improving the experience of our contributors and community.
-
+is paths for people to join and change their role within community.  The
+requested support is intended to complement, not replace, crucial volunteer
+work.  We propose dedicating a 20% FTE to community maintenance, including
+governance, outreach, communications, and moderation.
 
 
 
