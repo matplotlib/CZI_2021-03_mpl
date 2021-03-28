@@ -97,7 +97,7 @@ extensions we have been assigned a Trove classifier on PyPI [1].
 Given the centrality of visualization to data analysis across all domains, no
 single tool can satisfy all needs.  There are a range of tools not built on
 Matplotlib (see https://pyviz.org/tools.html for a long but not exhaustive
-list) that target use cases that Matplotlib is not well suited for.  A
+list) that target use cases that Matplotlib is not well suited for.
 
 [1] https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Matplotlib
 
@@ -116,4 +116,5 @@ biomedical research community, both directly and indirectly via tools that
 implement domain-specific visualizations.  This tools including CZI funded
 projects scikit-learn, CellProfiler, scanpy, starfish, nipy, networkx,
 MNE-python, DeepCutLab, pandas, xarary, and scikit-image.  Supporting the
-maintenance of Matplotlib will support researchers across the biomedical complex.
+maintenance of Matplotlib will support researchers across the biomedical
+complex.
