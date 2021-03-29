@@ -9,14 +9,6 @@ engagement of Matplotlib, the foundational plotting library of the Scientific
 Python Ecosystem.
 
 
-## Round 3 version
-
-To enable Matplotlib to continue as the core plotting library of the Scientific
-Python Ecosystem, we will address the maintenance backlog and continue
-Matplotlib's evolution to meet the community’s visualization challenges for the
-next decade.
-
-
 # Proposal Summary/Scope of Work (required):
 
 > Provide a short summary of the application (maximum of 500 words)
@@ -28,9 +20,10 @@ Python Ecosystem, with over a million users, including researchers in
 bio-medical imaging, microscopy, and genomics.  For the past 18 years
 Matplotlib has been maintained by a vibrant, primarily volunteer, community.
 However we have grown too big and widely used to continue on solely volunteer
-effort.  For the past 15 months (via EOSS Round 1 and 3) we have had supported
-developers which has had a huge positive effect on the project;  We propose to
-continue this effort.
+effort.  For the past 15 months CZI EOSS support for developers has had a
+positive effect on the project by complementing and enabling, not replacing,
+volunteer work.  We propose to continue this effort.
+
 
 The primary component of the proposed work is the continued maintenance of the
 library.  Maintenance covers a wide range of tasks including triaging and
@@ -40,45 +33,36 @@ are essential for the project's health; though each individually is small, they
 are frequently time critical and tedious.  It is unfair and impractical to rely
 solely on volunteers to accomplish such tasks.
 
-In particular, reviewing new Issues and PRs was task that, with only volunteer
-effort, we could not keep up with leading to an ever growing backlog.  There
-may be critical bug reports or insightful feature requests among the issues,
-while among the PRs there may be useful contributions or bug fixes that would
-improve Matplotlib.  Further, the backlog is discouraging for new and
-occasional contributors and distracting for core developers.
-
-Having maintenance tasks promptly and reliably addressed and reducing the
-Issue/PR backlog improve the contribution experience for everyone working on
-the project.  We propose to devote three quarters of a developer's time to
-continue handling these tasks.
+With only volunteer effort we had an ever growing backlog of Issues and PRs.
+This risks missing good ideas and is both discouraging to new contributors and
+distracting to the core developers.  In contrast, with CZI support we have
+decreased our backlog of open Issues and PRs despite an increase in the number
+submitted over the last 15 months.
 
 In addition to on-going and routine maintenance, there are substantial, but
 incremental, enhancement to Matplotlib that require long blocks of dedicated
-work to implement.  Examples of this work include fixing long-standing
+effort to implement.  Without funding, this type of project can drag out for
+months to years or stall altogether.  Examples include fixing long-standing
 rendering and performance issues, deep-dive explanatory documentation,
-homogenizing and smoothing the API, and new user-facing functionality.  Without
-funding, this type of project can drag out for months to years or stall
-altogether.  We propose to complete 4 such medium-sized self-contained projects
-per year with about 25% of an FTE.  The exact projects will be selected in
+homogenizing and smoothing the API, and new user-facing functionality.
+Projects to be pursued with the funding requested here will be selected in
 consultation with down-stream biomedical libraries.
 
 
-Finally, supported developers improve the technical and community management of
-the project.  We now have the time and bandwidth to make strategic decisions
-about the direction of the project to ensure the long term health and viability
-of Matplotlib.  However, it is critical that Matplotlib remain a
-community-driven project and the supported developers must complement and
-enable, not replace, volunteer work.  Individuals participate in our
-community at all levels of engagement; from users who only want to read the
-documentation to developers who are co-creating the library and everything in
-between.  We must ensure that our community is open and welcoming to everyone
-who wants to join and that there are clear paths for people to change their
-role within community.  We propose dedicating a 20% FTE to management and
-community maintenance, including planning, governance, outreach,
-communications, and moderation.
+Finally, supported developers improve the management of the project.  We now
+have the time and bandwidth to make strategic decisions about the direction of
+the project to ensure the long term health and viability of Matplotlib.  An
+important part of project management is community management: fostering,
+diversifying, and growing our community.  This requires dedicated effort, over
+long periods of time, beyond what can be sustained by volunteers alone.
+We must ensure that our community is open and welcoming to everyone who wants
+to join, with opportunities to contribute in a spectrum of roles as their
+interests and skills develop.
 
-
-
+We propose to continue full support (1 FTE) for Elliott Sales de Andrade and
+partial support (.2 FTE) for Thomas Caswell.  The effort will be split with
+approximately .75 FTE for maintenance, .25 FTE for medium sized enhancements, and
+.2 FTE for community and project management.
 
 
 # Landscape analysis
@@ -96,7 +80,7 @@ in Python (over 1M monthly users) and is a mature library (18+ years old) with
 over 1,250 individual code contributors.  In addition to being directly used by
 scientists, it is a core dependency of libraries and applications that
 implement domain-specific visualizations. To aid users in discovering these
-extensions we have been assigned a Trove classifier on PyPI [1].
+extensions we have been assigned a Trove classifier on Pip [1].
 
 Given the centrality of visualization to data analysis across all domains, no
 single tool can satisfy all needs.  There are a range of tools not built on
@@ -112,13 +96,11 @@ list) that target use cases that Matplotlib is not well suited for.
 
 > 87 Words
 
-Visualization is fundamental to science across all domains, including
-biomedical, and Matplotlib is the foundational plotting library in the
-scientific Python Ecosystem.  As a general-purpose plotting library Matplotlib
-is used to build domain specific visualization by researches across the
-biomedical research community, both directly and indirectly via tools that
-implement domain-specific visualizations.  This tools including CZI funded
-projects scikit-learn, CellProfiler, scanpy, starfish, nipy, networkx,
-MNE-python, DeepCutLab, pandas, xarary, and scikit-image.  Supporting the
-maintenance of Matplotlib will support researchers across the biomedical
-complex.
+Scientific Python libraries in biomedical and other fields rely on Matplotlib
+for visualization.  The proposed work will help ensure the health and
+continuing growth of this foundational component.  Matplotlib is a direct
+dependency of many other packages in the Scientific Python Ecosystem.  These
+include other general purpose tools, such as scikit-learn, networkx, pandas,
+xarray, and scikit-image that are used by biomedical researchers, and
+biomedical-specific projects such CellProfiler, scanpy, starfish, nipy,
+MNE-python, DeepCutLab.  All of these projects have received CZI funding.
