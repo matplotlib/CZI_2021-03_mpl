@@ -21,7 +21,7 @@ next decade.
 
 > Provide a short summary of the application (maximum of 500 words)
 
-> currently 475 words
+> currently 510 words
 
 Matplotlib is the foundational data visualization library for the Scientific
 Python Ecosystem, with over a million users, including researchers in
@@ -29,30 +29,28 @@ bio-medical imaging, microscopy, and genomics.  For the past 18 years
 Matplotlib has been maintained by a vibrant, primarily volunteer, community.
 However we have grown too big and widely used to continue on solely volunteer
 effort.  For the past 15 months (via EOSS Round 1 and 3) we have had supported
-developers which has had a huge positive effect on the project.  We propose to
+developers which has had a huge positive effect on the project;  We propose to
 continue this effort.
 
 The primary component of the proposed work is the continued maintenance of the
-library.  Maintenance covers a wide range of tasks including triaging bug
-reports, fixing bugs, reviewing Pull Requests, tagging and building releases,
-and keeping the continuous integration services running.  These tasks are
-essential for the project's health; though each individually is small, they are
-frequently time critical and tedious.  I is unfair and impractical to rely
-solely on volunteers to accomplish such tasks which are best handled by a paid
-developer.
+library.  Maintenance covers a wide range of tasks including triaging and
+fixing bugs, reviewing Pull Requests, tagging and building
+releases, and keeping the continuous integration services running.  These tasks
+are essential for the project's health; though each individually is small, they
+are frequently time critical and tedious.  It is unfair and impractical to rely
+solely on volunteers to accomplish such tasks.
 
-In particular, review of new Issues and PRs is a critical task that we were not
-able to keep up with prior to 2020 resulting in an ever growing backlog.  There
+In particular, reviewing new Issues and PRs was task that, with only volunteer
+effort, we could not keep up with leading to an ever growing backlog.  There
 may be critical bug reports or insightful feature requests among the issues,
 while among the PRs there may be useful contributions or bug fixes that would
-improve Matplotlib for direct users and downstream packages.  The backlog is
-discouraging for new and occasional contributors and distracting for core
-developers.
+improve Matplotlib.  Further, the backlog is discouraging for new and
+occasional contributors and distracting for core developers.
 
 Having maintenance tasks promptly and reliably addressed and reducing the
-Issue/PR backlog both drastically improve the contribution experience for
-everyone working on the project.  We propose to devote three quarters of a
-developer's time to continue handling these tasks.
+Issue/PR backlog improve the contribution experience for everyone working on
+the project.  We propose to devote three quarters of a developer's time to
+continue handling these tasks.
 
 In addition to on-going and routine maintenance, there are substantial, but
 incremental, enhancement to Matplotlib that require long blocks of dedicated
@@ -61,18 +59,24 @@ rendering and performance issues, deep-dive explanatory documentation,
 homogenizing and smoothing the API, and new user-facing functionality.  Without
 funding, this type of project can drag out for months to years or stall
 altogether.  We propose to complete 4 such medium-sized self-contained projects
-per year with about 20% of an FTE.  The exact projects will be selected in
+per year with about 25% of an FTE.  The exact projects will be selected in
 consultation with down-stream biomedical libraries.
 
 
-Matplotlib is a community-driven project with individuals participating at all
-levels of engagement, from users who need to be notified when a new release is
-available to developers who are co-creating the library and everything in
-between.  The supported developers must complement and enable, not replace,
-crucial volunteer work.  It is critical that we foster our community and there
-are paths for people to change their role within community.  We propose
-dedicating a 20% FTE to community maintenance, including governance, outreach,
+Finally, supported developers improve the technical and community management of
+the project.  We now have the time and bandwidth to make strategic decisions
+about the direction of the project to ensure the long term health and viability
+of Matplotlib.  However, it is critical that Matplotlib remain a
+community-driven project and the supported developers must complement and
+enable, not replace, volunteer work.  Individuals participate in our
+community at all levels of engagement; from users who only want to read the
+documentation to developers who are co-creating the library and everything in
+between.  We must ensure that our community is open and welcoming to everyone
+who wants to join and that there are clear paths for people to change their
+role within community.  We propose dedicating a 20% FTE to management and
+community maintenance, including planning, governance, outreach,
 communications, and moderation.
+
 
 
 
