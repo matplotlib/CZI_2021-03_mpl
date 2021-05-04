@@ -81,8 +81,8 @@ The proposed work can be broadly classified into three parts:
 - implementation of several mid-sized features;
 - community and project management.
 
-These tasks are both critical to the long term health of the library and are
-difficult, to accomplish well with only volunteers.  These tasks may
+These tasks are both critical to the long term health of the library and
+are ill-suited to be accomplished with solely volunteer effort.
 
 The primary component of the proposed work is the continued maintenance of the
 Matplotlib.  Maintenance covers a wide range of tasks including triaging and
@@ -93,12 +93,20 @@ frequently time critical and tedious.  It is unfair and impractical to rely
 solely on volunteers to accomplish such tasks.
 
 
-With only volunteer effort we had an ever growing backlog of Issues and PRs.
-This risks missing good ideas and is both discouraging to new contributors and
-distracting to the core developers.  In contrast, with CZI support we have
+Prior to 2020, with only volunteer effort, we had an ever growing backlog of
+Issues and PRs.  Having a large number open Issues and PRs is both discouraging
+to new contributors and distracting to the core developers.  Additionally,
+there is the risk that good ideas, critical bugs, and beneficial contributions
+are being unintentionally overlooked.  In contrast, with CZI support we have
 decreased our backlog of open Issues and PRs despite an increase in the number
 submitted over the last 15 months.
 
+To ensure the stability of Matplotlib over time we maintain an extensive, but
+not exhaustive, test suit of over 8,000 individual tests.  On every PR and on
+ever merge to the default branch we automatically run the test suite (and
+build the documentation executing almost all of our examples) on a matrix of
+supported Python versions and the three major operating systems.  This work is
+done in hosted Continuous Integration services provided to open source
 
 
 Examples include fixing long-standing
