@@ -81,8 +81,8 @@ The proposed work can be broadly classified into three parts:
 - implementation of several mid-sized features;
 - community and project management.
 
-These tasks are both critical to the long term health of the library and
-are ill-suited to be accomplished with solely volunteer effort.
+These tasks underpin the long term health of the library but are ill-suited to
+be accomplished with solely volunteer effort.
 
 The primary component of the proposed work is the continued maintenance of the
 Matplotlib.  Maintenance covers a wide range of tasks including triaging and
@@ -103,15 +103,54 @@ submitted over the last 15 months.
 
 To ensure the stability of Matplotlib over time we maintain an extensive, but
 not exhaustive, test suit of over 8,000 individual tests.  On every PR and on
-ever merge to the default branch we automatically run the test suite (and
-build the documentation executing almost all of our examples) on a matrix of
+ever merge to the default branch we automatically run the test suite (and build
+the documentation executing almost all of our examples) on a matrix of
 supported Python versions and the three major operating systems.  This work is
-done in hosted Continuous Integration services provided to open source
+done in hosted Continuous Integration (CI) services provided to open source
+project by the service provides.  While the compute is made available for free,
+there is still significant work and specialized knowledge needed to configure
+the services.  CI is a key aspect to our quality assurance process so if it
+breaks, it needs to be fixed immediately.  Having supported developers means
+that we can prioritize this work to enables the entire community.
+
+Matplotlib is a large, old, and widely used library.  While there are many
+incremental improvements that are done by volunteers, there are other projects
+that need to be done that are too big in scope to easily be done by volunteers.
+Examples include fixing long-standing rendering and performance issues,
+deep-dive explanatory documentation, homogenizing and smoothing the API, and
+new user-facing functionality.  For example in the previous grant period this
+work included finishing a 5 year old documentation PR, implementing hi-dpi
+support for Tk, and modernizing the parts of the c++ code base.  In all of
+these cases the need and understanding of the work that needed to be done
+was long known, but we lacked the resources to get the work done.
+
+One possible project is to overhaul how Figures are laid out.  There has been
+some recent work, including work supported by the EOSS 1, to improve the layout
+of complex multi-Axes Figures.  However, there is an opportunity to
+dramatically re-think how we handle the specification and automatic
+optimization of the layout.  Currently, the location of the Axes is either
+fixed at creation time or users can use two layout methods that are baked into
+the Figure that attempt to optimize the layout, to use as much of the space as
+possible while avoiding overlaps.  This is not currently implemented in a way
+that is easy to extend and add new layout algorithms.  By refactoring the
+implementation we can make it possible to implement a variety of algorithms
+including adjusting the Figure size, re-flowing axes grids a-la flex box, or
+with an R-stlye view port layout scheme.
 
 
-Examples include fixing long-standing
-rendering and performance issues, deep-dive explanatory documentation,
-homogenizing and smoothing the API, and new user-facing functionality.
+Another set of projects is to improve our support for hatching.  In the case of
+hatching the underlying backends can support tiling arbitrary hatch patterns,
+however we only expose a limited set of fixed-size circles, vertical lines,
+horizontal, and 45° diagonal lines.  Designing an API to allow the user to
+specify fully arbitrary hatch patterns, implementing it, and propagating the
+changes through all of our backends in a backward-compatible way is a
+significant amount of work.  Hatching is an important tool for generating
+accessible visualizations to supplement or replace color.
+
+Both of these projects will offer major quality of life improvements for
+users by making it easier to make well laid out accessible visualizations.
+
+
 Projects to be pursued with the funding requested here will be selected in
 consultation with down-stream biomedical libraries.
 
@@ -127,7 +166,8 @@ interests and skills develop.
 We propose to continue full support (1 FTE) for Elliott Sales de Andrade and
 partial support (.2 FTE) for Thomas Caswell.  The effort will be split with
 approximately .75 FTE for maintenance, .25 FTE for medium sized enhancements,
-and .2 FTE for community and project management.
+and .2 FTE for community and project management.  We also propose to fund
+Code of Conduct incident response training for the community.
 
 
 ## Milestones and Deliverables
