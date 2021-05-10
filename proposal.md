@@ -114,17 +114,20 @@ breaks, it needs to be fixed immediately.  Having supported developers means
 that we can prioritize this work to enables the entire community.
 
 Matplotlib is a large, old, and widely used library.  While there are many
-incremental improvements that are done by volunteers, there are other projects
-that need to be done that are too big in scope to easily be done by volunteers.
-Examples include fixing long-standing rendering and performance issues,
-deep-dive explanatory documentation, homogenizing and smoothing the API, and
-new user-facing functionality.  For example in the previous grant period this
-work included finishing a 5 year old documentation PR, implementing hi-dpi
-support for Tk, and modernizing the parts of the c++ code base.  In all of
-these cases the need and understanding of the work that needed to be done
-was long known, but we lacked the resources to get the work done.
+incremental improvements that are done by volunteers, some projects are too big
+in scope to easily be done by volunteers.  There are medium scale projects
+across all aspects of the porject, include fixing long-standing rendering and
+performance issues, deep-dive explanatory documentation, homogenizing and
+smoothing the API, and new user-facing functionality.  In the previous grant
+periods we finishing a 5 year old documentation PR, implemented hi-dpi support
+for Tk, and modernizing the parts of the c++ code base.  In these cases the
+need was long known (and in the case of the documentation even started!), but
+due to lack of dedicated resoures were not completed.
 
-One possible project is to overhaul how Figures are laid out.  There has been
+
+
+
+There has been
 some recent work, including work supported by the EOSS 1, to improve the layout
 of complex multi-Axes Figures.  However, there is an opportunity to
 dramatically re-think how we handle the specification and automatic
@@ -133,9 +136,10 @@ fixed at creation time or users can use two layout methods that are baked into
 the Figure that attempt to optimize the layout, to use as much of the space as
 possible while avoiding overlaps.  This is not currently implemented in a way
 that is easy to extend and add new layout algorithms.  By refactoring the
-implementation we can make it possible to implement a variety of algorithms
-including adjusting the Figure size, re-flowing axes grids a-la flex box, or
-with an R-stlye view port layout scheme.
+implementation we can make it possible to implement a variety of algorithms,
+even outside of core Matplotlib, including adjusting the Figure size,
+re-flowing axes grids a-la flex box, or with an R-stlye view port layout
+scheme.
 
 
 Another set of projects is to improve our support for hatching.  In the case of
