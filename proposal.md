@@ -180,7 +180,6 @@ resources to open source projects, significant work and specialized knowledge
 is needed to configure and maintain them.  Having supported developers who can
 prioritize this work enables the entire community.
 
-
 In addition to routine maintenance tasks, there are substantial but incremental
 improvements that require long blocks of dedicated work.  These tasks include
 fixing long-standing rendering and performance issues, deep-dive documentation,
@@ -188,12 +187,12 @@ homogenizing and smoothing the API, and new user-facing functionality.
 Completed examples previous grant cycles include finishing a 5 year old
 documentation PR, implementing hi-dpi support for Tk, and modernizing the parts
 of the c++ code base, while work is on-going to add a color-blind simulation
-filter to the UI to facilitate accessible visualization.
-Candidates for future work include overhauling how implement automatic layout
-optimization and expanding our API for hatching.  Funding would allow us to
-tackle about 10 such medium-sized, self-contained projects over two years with
-about a quarter of an FTE/year.  Without funding, this type of project can drag
-out for months or stall altogether.
+filter to the UI to facilitate accessible visualization.  Candidates for future
+work include overhauling how implement automatic layout optimization and
+expanding our API for hatching.  Funding would allow us to tackle about 10 such
+medium-sized, self-contained projects over two years with about a quarter of an
+FTE/year.  Without funding, this type of project can drag out for months or
+stall altogether.
 
 The most valuable aspect of the Matplotlib project is the community.  While the
 code is what enables our users to get their jobs done, the people who build and
@@ -204,18 +203,19 @@ sustained by volunteers alone.  We must ensure that our community is open and
 welcoming to everyone who wants to join, with opportunities to contribute in a
 spectrum of roles as their interests and skills develop.
 
-Although we do not have accurate demographics for our community, we believe
-that the diversity of our contributors does not match the diversity of our
-users.  To quantify and understand how to address this imbalance and increase
-the over all diversity we are collaborating with other efforts. First, NumFOCUS
-is currently working to quantify the demographics of our projects and
-understand the barriers to entry for under-represented groups.  We anticipate
-that the initial results of that work will be available near the start of the
-funding period of this proposal.  Further, Matplotlib is supporting a proposal
-lead by Melissa Mendonça to create and fund a Contributor Experience Lead (CEL)
-role across Numpy, SciPy, Pandas, and Matplotlib which would run concurrently
-with this proposal.  While we do not yet know what the recommendations of these
-efforts will be, we commit to implementing them in the Matplotlib community.
+The lack of diversity if open source is bigger problem than can be solved by a
+single project alone; to that end we propose to collaborate with other ongoing
+and proposed efforts.  NumFOCUS is currently conducting research on Contributor
+Diversification and Retention to collect baseline measurements of our
+demographics and produce recommendations on best practices of attracting and
+retaining diverse contributors.  We will use the resources from this proposal
+to implement those recommendations, which should be preliminary available in
+Q2 2022. Additionally, Matplotlib is supporting a proposal to the Essential
+Open Source Software for Science Diversity and Inclusion Grants RFA lead by
+Melissa Mendonça to create and fund a Contributor Experience Lead (CEL) role
+across Numpy, SciPy, Pandas, and Matplotlib which would run concurrently with
+this proposal.  We will use resources from this proposal to support the CEL
+and implement their recommendations.
 
 We propose to continue full support (1 FTE) for Elliott Sales de Andre and
 partial support (.2 FTE) for Thomas Caswell along with travel and equipment
