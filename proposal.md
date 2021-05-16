@@ -144,7 +144,7 @@ of Conduct incident response training for the community.
 > sprints, training), specify how these activities will be organized, the
 > target audience, and expected outcomes (maximum of 750 words)
 
-> 1016 words
+> 982 words
 
 The proposed work can be broadly classified into three parts:
 
@@ -164,25 +164,23 @@ frequently time critical and tedious.  It is unfair and impractical to rely
 solely on volunteers to accomplish such tasks.
 
 Prior to 2020, with only volunteer effort, we had an ever growing backlog of
-Issues and PRs.  Having a large number open Issues and PRs is both discouraging
-to new contributors and distracting to the core developers.  Additionally, it
-is almost certain that good ideas, critical bugs, and beneficial contributions
-are being unintentionally overlooked.  In contrast, with CZI support we have
-decreased our backlog of open Issues and PRs despite an increase in the number
-opened over the last 15 months.
+Issues and PRs.  A large backlog of open Issues and PRs is discouraging to new
+contributors and distracting to the core developers.  It is almost certain that
+good ideas, critical bugs, and beneficial contributions are being
+unintentionally overlooked.  In contrast, with CZI support we have decreased
+our backlog of open Issues and PRs despite an increase in the number opened
+over the last 15 months.
 
-To ensure the stability of Matplotlib over time we maintain an extensive, but
-not exhaustive, test suit of over 8,000 individual tests.  On every PR and
-merge to the default branch we automatically run the test suite and build the
-documentation, executing almost all of our examples, all of the supported
-Python versions and major operating systems.  This work is done in the cloud
-via hosted Continuous Integration (CI) services. CI is a key aspect to our
-quality assurance process, CI passing is a requirement for merging in normal
-circumstances.  Functioning (and ideally fast) CI is needed for routine flow of
-contributions.  While the service provides offer compute to open source
-project free of charge, there is still significant work and specialized
-knowledge needed to configure and maintain them.  Having supported developers
-means that we can prioritize this work to enables the entire community.
+To ensure the stability of Matplotlib over time we maintain an extensive test
+suite.  When changes are proposed we run the full test suite and build the
+documentation on all of the supported Python versions and major operating
+systems via hosted Continuous Integration (CI) services.  This CI is a key
+aspect to our quality assurance process: CI passing is a requirement for
+merging any changes to the default branch and is needed for the routine flow of
+contributions.  While the service provides offer free resources to open source
+projects, significant work and specialized knowledge is needed to configure and
+maintain them.  Having supported developers who can prioritize this work
+enables the entire community.
 
 There are innumerable incremental improvements to Matplotlib that can readily
 be done by volunteers, however some projects are too big in scope to easily be
