@@ -144,7 +144,7 @@ of Conduct incident response training for the community.
 > sprints, training), specify how these activities will be organized, the
 > target audience, and expected outcomes (maximum of 750 words)
 
-> 982 words
+> 750 words
 
 The proposed work can be broadly classified into three parts:
 
@@ -171,52 +171,29 @@ unintentionally overlooked.  In contrast, with CZI support we have decreased
 our backlog of open Issues and PRs despite an increase in the number opened
 over the last 15 months.
 
-To ensure the stability of Matplotlib over time we maintain an extensive test
-suite.  When changes are proposed we run the full test suite and build the
-documentation on all of the supported Python versions and major operating
-systems via hosted Continuous Integration (CI) services.  This CI is a key
-aspect to our quality assurance process: CI passing is a requirement for
-merging any changes to the default branch and is needed for the routine flow of
-contributions.  While the service provides offer free resources to open source
-projects, significant work and specialized knowledge is needed to configure and
-maintain them.  Having supported developers who can prioritize this work
-enables the entire community.
+Maintaining Continuous Integration (CI) is required for the routine flow of
+contributions and core part of our quality assurance process.  On every PR and
+merge to the default branch we run our full test suite and build the
+documentation on a matrix of supported versions of Python, our dependencies,
+and the major operating systems.  While the service provides offer free
+resources to open source projects, significant work and specialized knowledge
+is needed to configure and maintain them.  Having supported developers who can
+prioritize this work enables the entire community.
 
-There are innumerable incremental improvements to Matplotlib that can readily
-be done by volunteers, however some projects are too big in scope to easily be
-done by volunteers.  There are medium scale projects across all aspects of the
-project from fixing long-standing bugs, improving the performance,
-documentation tasks, or implementing major new features.  Examples of this work
-from the the previous grant periods include: finishing a 5 year old
+
+In addition to routine maintenance tasks, there are substantial but incremental
+improvements that require long blocks of dedicated work.  These tasks include
+fixing long-standing rendering and performance issues, deep-dive documentation,
+homogenizing and smoothing the API, and new user-facing functionality.
+Completed examples previous grant cycles include finishing a 5 year old
 documentation PR, implementing hi-dpi support for Tk, and modernizing the parts
-of the c++ code base.  The common theme of these projects is the need for
-long blocks of dedicated time to devoted to the project.
-
-Recent work, including work supported by the EOSS 1, has drastically improved
-the layout of complex multi-Axes Figures.  This work has shown that there is an
-opportunity to dramatically re-think how we handle the specification and
-automatic optimization of the layout.  Currently there are two layout
-algorithms built into Matplotlib and no way to inject additional algorithms
-without modifying the core library.  We propose refactor this to allow the
-layout algorithms to be injected by defining a consistent API to adjust the
-layout of a Figure.  This will enable implementing a variety of algorithms,
-even outside of core Matplotlib, including adjusting the Figure size,
-re-flowing axes grids a-la flex box, or with an R-stlye view port layout
-scheme.
-
-Another possible project is to improve our support for hatching.  Hatching,
-filling an area with a texture pattern, is an important tool for generating
-accessible visualizations by supplementing or replacing color.  Currently
-Matplotlib only exposes a limited set of patterns (8 primitive patterns which
-can be combined with varying density) to the user.  However, the underlying
-code can support arbitrary patterns!  We propose to extend the existing API to
-expose the full set of capabilities to the user.
-
-These projects are illustrative of medium scale projects that existing within
-Matplotlib will drastically for users for relatively modest investment.  These
-projects, which include aspects of API design, extensive documentation, and
-implementation effort, are far more successful with dedicated effort rather
-than volunteer effort alone.
+of the c++ code base, while work is on-going to add a color-blind simulation
+filter to the UI to facilitate accessible visualization.
+Candidates for future work include overhauling how implement automatic layout
+optimization and expanding our API for hatching.  Funding would allow us to
+tackle about 10 such medium-sized, self-contained projects over two years with
+about a quarter of an FTE/year.  Without funding, this type of project can drag
+out for months or stall altogether.
 
 The most valuable aspect of the Matplotlib project is the community.  While the
 code is what enables our users to get their jobs done, the people who build and
@@ -268,8 +245,13 @@ aim to hit the following metrics:
 - Resolve majority of new issues / PRs within 1 month
 - Review and resolve 100 issues / quarter
 - Reduce and merge or close 100 PRs / quarter
-- 8 mid-sized new features (4 per year)
-- Feature releases every 6 months, 2-3 patch releases between feature releases
+
+We will aim to complete 9 mid-sized projects of similar scope to those
+described above.  The exact projects will be determined in collaboration with
+the community and downstream bio libraries.
+
+We will maintain our current release cadence of a feature releases (3.N.0) every
+6 months and  2-3 patch releases (3.N.X) between feature releases.
 
 As mentioned above, Matplotlib is involved in on-going and proposed work on
 improving diversity in our community.  We will implement the recommendations of
