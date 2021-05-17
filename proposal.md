@@ -214,8 +214,8 @@ Q2 2022. Additionally, Matplotlib is supporting a proposal to the Essential
 Open Source Software for Science Diversity and Inclusion Grants RFA lead by
 Melissa Mendonça to create and fund a Contributor Experience Lead (CEL) role
 across Numpy, SciPy, Pandas, and Matplotlib which would run concurrently with
-this proposal.  We will use resources from this proposal to support the CEL
-and implement their recommendations.
+this proposal.  We will use resources from this proposal to support the CEL and
+implement their recommendations.
 
 We propose to continue full support (1 FTE) for Elliott Sales de Andre and
 partial support (.2 FTE) for Thomas Caswell along with travel and equipment
@@ -223,6 +223,7 @@ support.  The effort will be split with approximately .75 FTE for maintenance,
 .25 FTE for medium sized enhancements, and .2 FTE for community and project
 management.  We also propose to fund Code of Conduct incident response training
 for the community.
+
 
 
 ## Milestones and Deliverables
@@ -241,6 +242,7 @@ supported by the grant.  The total number of open issues and PRs is dependent
 on both how many come in and the amount of work done by volunteers.  We will
 aim to hit the following metrics:
 
+
 - Initial response to all issues / new PRs within a week
 - Resolve majority of new issues / PRs within 1 month
 - Review and resolve 100 issues / quarter
@@ -250,13 +252,16 @@ We will aim to complete 9 mid-sized projects of similar scope to those
 described above.  The exact projects will be determined in collaboration with
 the community and downstream bio libraries.
 
-We will maintain our current release cadence of a feature releases (3.N.0) every
-6 months and  2-3 patch releases (3.N.X) between feature releases.
+
+We will maintain our current release cadence of a feature releases (3.N.0)
+every 6 months and 2-3 patch releases (3.N.X) between feature releases.
+
 
 As mentioned above, Matplotlib is involved in on-going and proposed work on
 improving diversity in our community.  We will implement the recommendations of
 those efforts and, if funded, support the Matplotlib Contributor Experience
 Lead.
+
 
 
 
@@ -276,15 +281,16 @@ welcoming, we have worked at being more explicit about our norms and values and
 how the project operates. To this end, we have put major effort into
 documenting our governance and defining leadership roles, and clarifying
 specific expectations for new code and community contributors.  We have started
-two initiatives to lower the barrier of entry for individuals to get
-involved in developing Matplotlib:: an triage role in the project and an
-"incubator" channel on our gitter.  It is critical that all contributors,
-independent of experience level both in general and with the project, feel safe
-to make mistakes and learn in our community.  We strive to embody these values
-in our interactions on github, our mailing list and community discussion forum
+two initiatives to lower the barrier of entry for individuals to get involved
+in developing Matplotlib:: an triage role in the project and an "incubator"
+channel on our gitter.  It is critical that all contributors, independent of
+experience level both in general and with the project, feel safe to make
+mistakes and learn in our community.  We strive to embody these values in our
+interactions on github, our mailing list and community discussion forum
 (discourse), and in our social media.  We hope that these practices will
 empower and encourage people who have diverse identities to participate in
 Matplotlib.
+
 
 ## Short description
 
