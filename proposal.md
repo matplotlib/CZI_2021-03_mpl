@@ -285,3 +285,26 @@ in our interactions on github, our mailing list and community discussion forum
 (discourse), and in our social media.  We hope that these practices will
 empower and encourage people who have diverse identities to participate in
 Matplotlib.
+
+## Short description
+
+> Short description of software project (200 words maximum) (required)
+
+> 125 words
+> this is what we put is for round 3 and is lifted from the website
+
+
+Matplotlib is a Python 2D plotting library which produces publication quality
+figures in a variety of hardcopy formats and interactive environments across
+platforms. Matplotlib can be used in Python scripts, the Python and IPython
+shells, the Jupyter notebook/lab, web application servers, and four graphical
+user interface toolkits.
+
+Matplotlib tries to make easy things easy and hard things possible. You can
+generate plots, histograms, power spectra, bar charts, errorcharts,
+scatterplots, etc., with just a few lines of code.
+
+For simple plotting the pyplot module provides a MATLAB-like interface,
+particularly when combined with IPython. For the power user, you have full
+control of line styles, font properties, axes properties, etc, via an object
+oriented interface or via a set of functions familiar to MATLAB users.
