@@ -1,0 +1,244 @@
+"years","topic","yr_count"
+2012,"Computer Science",36
+2013,"Computer Science",46
+2014,"Computer Science",76
+2015,"Computer Science",80
+2016,"Computer Science",160
+2017,"Computer Science",151
+2018,"Computer Science",272
+2019,"Computer Science",314
+2020,"Computer Science",382
+2012,"Biochemistry, Genetics and Molecular Biology",25
+2013,"Biochemistry, Genetics and Molecular Biology",34
+2014,"Biochemistry, Genetics and Molecular Biology",51
+2015,"Biochemistry, Genetics and Molecular Biology",92
+2016,"Biochemistry, Genetics and Molecular Biology",101
+2017,"Biochemistry, Genetics and Molecular Biology",132
+2018,"Biochemistry, Genetics and Molecular Biology",176
+2019,"Biochemistry, Genetics and Molecular Biology",229
+2020,"Biochemistry, Genetics and Molecular Biology",334
+2012,"Mathematics",25
+2013,"Mathematics",27
+2014,"Mathematics",43
+2015,"Mathematics",53
+2016,"Mathematics",65
+2017,"Mathematics",78
+2018,"Mathematics",129
+2019,"Mathematics",134
+2020,"Mathematics",187
+2012,"Physics and Astronomy",25
+2013,"Physics and Astronomy",52
+2014,"Physics and Astronomy",97
+2015,"Physics and Astronomy",166
+2016,"Physics and Astronomy",273
+2017,"Physics and Astronomy",381
+2018,"Physics and Astronomy",716
+2019,"Physics and Astronomy",1010
+2020,"Physics and Astronomy",1263
+2012,"Engineering",20
+2013,"Engineering",32
+2014,"Engineering",48
+2015,"Engineering",56
+2016,"Engineering",99
+2017,"Engineering",89
+2018,"Engineering",163
+2019,"Engineering",192
+2020,"Engineering",272
+2012,"Earth and Planetary Sciences",15
+2013,"Earth and Planetary Sciences",32
+2014,"Earth and Planetary Sciences",76
+2015,"Earth and Planetary Sciences",138
+2016,"Earth and Planetary Sciences",197
+2017,"Earth and Planetary Sciences",322
+2018,"Earth and Planetary Sciences",614
+2019,"Earth and Planetary Sciences",922
+2020,"Earth and Planetary Sciences",1170
+2012,"Chemistry",12
+2013,"Chemistry",15
+2014,"Chemistry",27
+2015,"Chemistry",40
+2016,"Chemistry",73
+2017,"Chemistry",83
+2018,"Chemistry",119
+2019,"Chemistry",130
+2020,"Chemistry",184
+2012,"Materials Science",9
+2013,"Materials Science",13
+2014,"Materials Science",28
+2015,"Materials Science",25
+2016,"Materials Science",61
+2017,"Materials Science",73
+2018,"Materials Science",98
+2019,"Materials Science",81
+2020,"Materials Science",133
+2012,"Neuroscience",9
+2013,"Neuroscience",18
+2014,"Neuroscience",14
+2015,"Neuroscience",23
+2016,"Neuroscience",24
+2017,"Neuroscience",37
+2018,"Neuroscience",37
+2019,"Neuroscience",49
+2020,"Neuroscience",72
+2012,"Environmental Science",8
+2013,"Environmental Science",11
+2014,"Environmental Science",16
+2015,"Environmental Science",25
+2016,"Environmental Science",17
+2017,"Environmental Science",37
+2018,"Environmental Science",51
+2019,"Environmental Science",68
+2020,"Environmental Science",108
+2012,"Medicine",7
+2013,"Medicine",11
+2014,"Medicine",16
+2015,"Medicine",19
+2016,"Medicine",38
+2017,"Medicine",38
+2018,"Medicine",71
+2019,"Medicine",95
+2020,"Medicine",131
+2012,"Agricultural and Biological Sciences",6
+2013,"Agricultural and Biological Sciences",17
+2014,"Agricultural and Biological Sciences",23
+2015,"Agricultural and Biological Sciences",41
+2016,"Agricultural and Biological Sciences",36
+2017,"Agricultural and Biological Sciences",51
+2018,"Agricultural and Biological Sciences",58
+2019,"Agricultural and Biological Sciences",92
+2020,"Agricultural and Biological Sciences",137
+2012,"Multidisciplinary",3
+2013,"Multidisciplinary",10
+2014,"Multidisciplinary",8
+2015,"Multidisciplinary",27
+2016,"Multidisciplinary",29
+2017,"Multidisciplinary",48
+2018,"Multidisciplinary",38
+2019,"Multidisciplinary",62
+2020,"Multidisciplinary",108
+2012,"Chemical Engineering",2
+2013,"Chemical Engineering",3
+2014,"Chemical Engineering",2
+2015,"Chemical Engineering",14
+2016,"Chemical Engineering",19
+2017,"Chemical Engineering",17
+2018,"Chemical Engineering",31
+2019,"Chemical Engineering",37
+2020,"Chemical Engineering",72
+2012,"Social Sciences",2
+2013,"Social Sciences",4
+2014,"Social Sciences",4
+2015,"Social Sciences",11
+2016,"Social Sciences",25
+2017,"Social Sciences",25
+2018,"Social Sciences",36
+2019,"Social Sciences",54
+2020,"Social Sciences",59
+2012,"Arts and Humanities",1
+2013,"Arts and Humanities",2
+2014,"Arts and Humanities",2
+2015,"Arts and Humanities",0
+2016,"Arts and Humanities",5
+2017,"Arts and Humanities",8
+2018,"Arts and Humanities",4
+2019,"Arts and Humanities",12
+2020,"Arts and Humanities",8
+2012,"Economics, Econometrics and Finance",1
+2013,"Economics, Econometrics and Finance",0
+2014,"Economics, Econometrics and Finance",0
+2015,"Economics, Econometrics and Finance",0
+2016,"Economics, Econometrics and Finance",1
+2017,"Economics, Econometrics and Finance",2
+2018,"Economics, Econometrics and Finance",1
+2019,"Economics, Econometrics and Finance",3
+2020,"Economics, Econometrics and Finance",0
+2012,"Energy",1
+2013,"Energy",5
+2014,"Energy",8
+2015,"Energy",9
+2016,"Energy",19
+2017,"Energy",20
+2018,"Energy",33
+2019,"Energy",40
+2020,"Energy",67
+2012,"Immunology and Microbiology",0
+2013,"Immunology and Microbiology",8
+2014,"Immunology and Microbiology",7
+2015,"Immunology and Microbiology",12
+2016,"Immunology and Microbiology",16
+2017,"Immunology and Microbiology",21
+2018,"Immunology and Microbiology",34
+2019,"Immunology and Microbiology",55
+2020,"Immunology and Microbiology",74
+2012,"Psychology",0
+2013,"Psychology",2
+2014,"Psychology",2
+2015,"Psychology",0
+2016,"Psychology",5
+2017,"Psychology",6
+2018,"Psychology",6
+2019,"Psychology",8
+2020,"Psychology",12
+2012,"Business, Management and Accounting",0
+2013,"Business, Management and Accounting",1
+2014,"Business, Management and Accounting",3
+2015,"Business, Management and Accounting",1
+2016,"Business, Management and Accounting",2
+2017,"Business, Management and Accounting",2
+2018,"Business, Management and Accounting",3
+2019,"Business, Management and Accounting",11
+2020,"Business, Management and Accounting",11
+2012,"Decision Sciences",0
+2013,"Decision Sciences",1
+2014,"Decision Sciences",4
+2015,"Decision Sciences",5
+2016,"Decision Sciences",5
+2017,"Decision Sciences",12
+2018,"Decision Sciences",26
+2019,"Decision Sciences",39
+2020,"Decision Sciences",46
+2012,"Health Professions ",0
+2013,"Health Professions ",0
+2014,"Health Professions ",2
+2015,"Health Professions ",3
+2016,"Health Professions ",2
+2017,"Health Professions ",4
+2018,"Health Professions ",10
+2019,"Health Professions ",9
+2020,"Health Professions ",7
+2012,"Nursing",0
+2013,"Nursing",0
+2014,"Nursing",1
+2015,"Nursing",0
+2016,"Nursing",0
+2017,"Nursing",2
+2018,"Nursing",1
+2019,"Nursing",0
+2020,"Nursing",2
+2012,"Pharmacology, Toxicology and Pharmaceutics",0
+2013,"Pharmacology, Toxicology and Pharmaceutics",0
+2014,"Pharmacology, Toxicology and Pharmaceutics",0
+2015,"Pharmacology, Toxicology and Pharmaceutics",4
+2016,"Pharmacology, Toxicology and Pharmaceutics",11
+2017,"Pharmacology, Toxicology and Pharmaceutics",9
+2018,"Pharmacology, Toxicology and Pharmaceutics",13
+2019,"Pharmacology, Toxicology and Pharmaceutics",22
+2020,"Pharmacology, Toxicology and Pharmaceutics",25
+2012,"Dentistry",0
+2013,"Dentistry",0
+2014,"Dentistry",0
+2015,"Dentistry",0
+2016,"Dentistry",0
+2017,"Dentistry",0
+2018,"Dentistry",0
+2019,"Dentistry",0
+2020,"Dentistry",3
+2012,"Veterinary",0
+2013,"Veterinary",0
+2014,"Veterinary",0
+2015,"Veterinary",0
+2016,"Veterinary",0
+2017,"Veterinary",0
+2018,"Veterinary",0
+2019,"Veterinary",0
+2020,"Veterinary",3
