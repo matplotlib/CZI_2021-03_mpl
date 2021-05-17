@@ -3,12 +3,13 @@ import matplotlib.pyplot as plt
 import textwrap
 
 fig, ax = plt.subplots(constrained_layout=True)
-ax.spines.right.set_visible(False)
-ax.spines.top.set_visible(False)
 
 
 data = pd.read_csv("matplotlib.csv", index_col=0)
 
+# (name, offset)
+# The offset is in points and is manually set to de-conflict
+# the labels an categories that are close.
 targets = [
     ("Biochemistry, Genetics and Molecular Biology", 0),
     ("Neuroscience", -9),
@@ -34,10 +35,22 @@ for k, offset in targets:
         va="center",
     )
 
+# do not expand away from the data limits
 ax.set_ylim(ymin=0)
 ax.set_xlim(2012, 2020)
+
+# add axis labels and title
 ax.set_xlabel("year")
 ax.set_ylabel("# articles mentioning Matplotlib")
 ax.set_title("Matplotlib mentions in Scopus by field")
+
+# drop the top and right spines so the annotations look OK
+ax.spines.right.set_visible(False)
+ax.spines.top.set_visible(False)
+
+# add horizontal grid lines
 ax.grid(True, axis="y", which="major")
+
 fig.savefig("scopus_mentions.png", dpi=200)
+
+plt.show()
