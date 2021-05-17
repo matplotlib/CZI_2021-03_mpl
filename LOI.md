@@ -43,7 +43,7 @@ submitted over the last 15 months.
 
 
 In addition to on-going and routine maintenance, there are substantial, but
-incremental, enhancement to Matplotlib that require long blocks of dedicated
+incremental, enhancements to Matplotlib that require long blocks of dedicated
 effort to implement.  Without funding, this type of project can drag out for
 months to years or stall altogether.  Examples include fixing long-standing
 rendering and performance issues, deep-dive explanatory documentation,
@@ -86,8 +86,8 @@ Matplotlib is the most widely used and de-facto standard visualization library
 in Python (over 1M monthly users) and is a mature library (18+ years old) with
 over 1,250 individual code contributors.  In addition to being directly used by
 scientists, it is a core dependency of libraries and applications that
-implement domain-specific visualizations. To aid users in discovering these
-extensions we have been assigned a Trove classifier on Pip [1].
+implement domain-specific visualizations.  To aid users in discovering these
+extensions we have been assigned a Trove classifier on PyPI [1].
 
 
 Given the centrality of visualization to data analysis across all domains, no
