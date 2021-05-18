@@ -316,3 +316,9 @@ For simple plotting the pyplot module provides a MATLAB-like interface,
 particularly when combined with IPython. For the power user, you have full
 control of line styles, font properties, axes properties, etc, via an object
 oriented interface or via a set of functions familiar to MATLAB users.
+
+
+## 3a. Progress Report:
+
+> Provide a short summary of progress towards the deliverables in your
+> currently funded proposal (maximum of 250 words)
