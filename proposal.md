@@ -322,3 +322,27 @@ oriented interface or via a set of functions familiar to MATLAB users.
 
 > Provide a short summary of progress towards the deliverables in your
 > currently funded proposal (maximum of 250 words)
+
+
+> Previous progress report:
+
+The current grant is supporting one developer at 40% (Thomas Caswell), one
+graduate student (Hannah Aizenman) with partial summer support for her advisor
+(Michael Grossberg), and a full time Research Software Engineer.  For the latter
+we ran a search and hired Elliott Sales de Andrade who started in mid-March.
+
+Elliott has focused on the maintenance and support aspect of the grant.  We hit
+our target of a net reduction of open PRs by 50/quarter and are making progress
+on reducing the number of open issues.  Our initial estimates of the effort per
+issue closed were too optimistic; however, we merged several mid-sized and
+high-impact projects (documentation, JavaScript modernization, and a complex
+axes layout helper).  Additionally we drafted new governance and contributor
+onboarding guidelines and had 2 feature and 4 bug-fix releases.
+
+We presented our new architecture ideas to the scientific library development
+community at the SciPy 2020 maintainers track.  We designed the prototype API to
+have a clean separation between the DataSource, Artist, and rendering layers.
+We started implementing sample DataSources and Artists to formalize and
+validate the interface between them.  Because the prototype is still developing
+rapidly, we are postponing working with a downstream partner until the API has
+stabilized.
