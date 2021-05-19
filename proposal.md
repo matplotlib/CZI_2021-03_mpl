@@ -302,7 +302,7 @@ participate in Matplotlib.
 > this is what we put is for round 3 and is lifted from the website
 
 
-Matplotlib is a Python 2D plotting library which produces publication quality
+Matplotlib is a Python 2D plotting library for producing publication quality
 figures in a variety of hardcopy formats and interactive environments across
 platforms. Matplotlib can be used in Python scripts, the Python and IPython
 shells, the Jupyter notebook/lab, web application servers, and four graphical
