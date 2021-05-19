@@ -320,25 +320,25 @@ oriented interface or via a set of functions familiar to MATLAB users.
 The EOSS3 grant builds on the work of EOSS1 and supports one developer at 30%
 (Thomas Caswell), one graduate student (Hannah Aizenman) with partial summer
 support for her advisor (Michael Grossberg), and a full time Research Software
-Engineer (Elliott Sales de Andrade).  Elliott's funding has a two-month delay from
-Caswell and Aizenman.
+Engineer (Elliott Sales de Andrade).  Elliott's funding has a two-month delay
+from Caswell and Aizenman.
 
 Elliott has focused on the maintenance and support aspect of the grant.  As
-part of ongoing maintenance, Elliott increased automation of the release
-process and CI infrastructure, enabling us to make 1 feature and 2 bug-fix
-releases in cycle 3 to-date, with an additional 2 feature and 6 bug-fix
-releases in cycle 1.  Elliott implemented or shepherded to completion several
-mid-sized and high-impact projects including toolkit-specific work (Hi-DPI
-improvements, JavaScript modernization), feature implementation (3D-specific
-plots, domain-specific plot types), and internal refactors (deprecation
-cleanup, internal storage refactors).
+part of ongoing maintenance, he increased automation of the release process and
+CI infrastructure, enabling us to make 1 feature and 2 bug-fix releases in
+cycle 3 to-date, with an additional 2 feature and 6 bug-fix releases in
+cycle 1.  Elliott implemented or shepherded to completion several mid-sized and
+high-impact projects including toolkit-specific work (Hi-DPI improvements) and
+internal refactors (deprecation cleanup, internal storage refactors, c/c++
+extension improvements).
 
 Hannah is making progress on her thesis and is on-track to graduate in Q2 2022.
 She has completed her thesis proposal and submitted a paper on this work to
 IEEE VIS 2021 (currently under review).  We have begun preliminary discussions
 with MNE-Python, DeepLabCut, and scanpy to identify a biology partner to work
-with on a proof-of-concept implementation.  We are planning to present an
-update on this work to the wider community at SciPy 2021 in July.
+with on a proof-of-concept implementation.  We have submitted a proposal to
+present an update to the wider community at SciPy 2021 in July.
+
 
 
 
@@ -364,3 +364,21 @@ We started implementing sample DataSources and Artists to formalize and
 validate the interface between them.  Because the prototype is still developing
 rapidly, we are postponing working with a downstream partner until the API has
 stabilized.
+
+
+## Existing support:
+
+> List active and recent (previous two calendar years) financial or in-kind
+> support for the software project(s), including duration, amount in USD, and
+> source of funding. Include in this section any previous funding for these
+> software projects received from CZI (maximum of 250 words)
+
+- EOSS-0000000100, (Jan 2020 - May 2021) 1yr, 250k$, CZI
+- EOSS3-0000000149, (Jan 2021 - Jan 2022) 1yr, 250k$, CZI
+
+- NF small development grant (5k$ to support documentation, completed)
+- NF small development grant (3k$ to support a hosted mac mini, 3yr)
+
+- Google summer of code (2020, 2021) 1 full time student per summer, in-kind, Google
+- Google season of docs (2020) 2 part-time technical writers (3 and 6 months),
+  in-kind, Google
