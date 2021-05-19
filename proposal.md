@@ -317,26 +317,29 @@ oriented interface or via a set of functions familiar to MATLAB users.
 > Provide a short summary of progress towards the deliverables in your
 > currently funded proposal (maximum of 250 words)
 
-For the round 1 cycle, the grant supported one developer at 40% (Thomas
-Caswell), one graduate student (Hannah Aizenman) with partial summer support
-for her advisor (Michael Grossberg), and a full time Research Software
-Engineer.  For the latter we ran a search and hired Elliott Sales de Andrade
-who started March 2020 for one year.  This same structure continued into the
-round 3 cycle, over the 2021 year, with the two-month delay for Elliott.
+The EOSS3 grant builds on the work of EOSS1 and supports one developer at 30%
+(Thomas Caswell), one graduate student (Hannah Aizenman) with partial summer
+support for her advisor (Michael Grossberg), and a full time Research Software
+Engineer (Elliott Sales de Andrade).  Elliott's funding has a two-month delay from
+Caswell and Aizenman.
 
-Elliott has focused on the maintenance and support aspect of the grant.  We hit
-our target of a net reduction of open PRs by 50/quarter and are making progress
-on reducing the number of open issues.  Our initial estimates of the effort per
-issue closed were too optimistic; while we increased the rate of issues closed,
-the number of issues opened also increased.  As part of ongoing maintenance,
-Elliott increased automation of the release process and CI infrastructure,
-enabling us to make 2 feature and 6 bug-fix releases in cycle 1, with an
-additional 1 feature and 2 bug-fix releases in cycle 3 to-date.  Elliott
-implemented or shepherded to completion several mid-sized and high-impact
-projects including toolkit-specific work (Hi-DPI improvements, JavaScript
-modernization), feature implementation (3D-specific plots, domain-specific plot
-types), and internal refactors (deprecation cleanup, internal storage
-refactors).
+Elliott has focused on the maintenance and support aspect of the grant.  As
+part of ongoing maintenance, Elliott increased automation of the release
+process and CI infrastructure, enabling us to make 1 feature and 2 bug-fix
+releases in cycle 3 to-date, with an additional 2 feature and 6 bug-fix
+releases in cycle 1.  Elliott implemented or shepherded to completion several
+mid-sized and high-impact projects including toolkit-specific work (Hi-DPI
+improvements, JavaScript modernization), feature implementation (3D-specific
+plots, domain-specific plot types), and internal refactors (deprecation
+cleanup, internal storage refactors).
+
+Hannah is making progress on her thesis and is on-track to graduate in Q2 2022.
+She has completed her thesis proposal and submitted a paper on this work to
+IEEE VIS 2021 (currently under review).  We have begun preliminary discussions
+with MNE-Python, DeepLabCut, and scanpy to identify a biology partner to work
+with on a proof-of-concept implementation.  We are planning to present an
+update on this work to the wider community at SciPy 2021 in July.
+
 
 
 > Previous progress report:
