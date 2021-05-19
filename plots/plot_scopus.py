@@ -51,6 +51,6 @@ ax.spines.top.set_visible(False)
 # add horizontal grid lines
 ax.grid(True, axis="y", which="major")
 
-fig.savefig("scopus_mentions.png", dpi=200)
+fig.savefig("scopus_mentions.pdf", dpi=200)
 
 plt.show()
