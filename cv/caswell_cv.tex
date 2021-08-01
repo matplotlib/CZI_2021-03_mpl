@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+%\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{ulem}
+%\setlength{\textwidth}{5.5in} % Text width of the document
+\usepackage{multicol}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{
+%     \begin{multicols}{2}[
+\setlength{\leftskip}{-\sectionwidth}
+
+\moveleft.5\sectionwidth\vbox{\hrule width\textwidth}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+%]%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist%\end{multicols}}
+}
+\makeatother
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft\hoffset\vbox{\large\bf Thomas A Caswell} % Your name at the top
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%        CONTACT
+%----------------------------------------------------------------------------------------
+\section{ Contact\\Information}
+Brookhaven National Laboratory \\
+Building 741 \hfill (o) 631.344.3146\\
+P.O. Box 5000 \hfill {(c)} 914.523.7002 \\
+Upton, NY 11973-5000 \hfill {(e)} {\tt tcaswell@\{bnl.gov, gmail.com\}}\\
+{\itshape Date of Birth:} March 19, 1985 \hfill {(e)} {\tt tac2205@columbia.edu}\\
+{\itshape Citizenship:} USA
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{OBJECTIVE}
+
+% A position in the field of computers with special interests in business applications programming, information processing, and management systems.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Appointments}
+
+{\bf Brookhaven National Laboratory }, Upton NY \hfill\\
+{\it National Synchrotron Lightsource II (NSLS-II)} \\
+Computational Scientist \hfill October 2020 - Present\\
+Associate Computational Scientist \hfill January 2017 - October 2020\\
+Assistant Computational Scientist \hfill April 2015 - January 2017\\
+Research Associate \hfill January 2014 - April 2015
+
+{\bf Columbia University}, New York, NY \hfill\\
+{\it Department of Applied Physics and Applied Mathematics}\\
+Visiting Associate Research Scientist \hfill October 2019 - Present
+
+\section{Education}
+
+{\bf University of Chicago}, Chicago IL \\
+Ph.D., Physics \hfill Spring 2014\\
+M.S. Physics \hfill Fall 2008 \\
+{\itshape Advisors}: Sidney R. Nagel and Margaret L. Gardel
+
+{\bf Cornell University}, Ithaca, NY \\
+B.A., Physics \& Mathematics \hfill Spring 2007\\
+{\itshape Research Advisor:}  Sol M. Gruner
+
+\section{Grants}
+{\bf Chan Zuckerberg Initiative Essential Open Source Software for Science} \hfill \\
+``Matplotlib - Foundation of Scientific Visualization in Python''\\
+Thomas A. Caswell (PI) \\
+250k\$ \hfill November 2020 - November 2021\\
+{\bf Chan Zuckerberg Initiative Essential Open Source Software for Science} \hfill \\
+``Matplotlib - Foundation of Scientific Visualization in Python''\\
+Thomas A. Caswell (PI) \\
+250k\$ \hfill November 2019 - November 2020\\
+{\bf BNL Lab Directed Research and Development}\\
+``Accelerating materials discovery with total scattering via machine learning''\\
+Daniel Olds (PI), Stuart Campbell, Thomas A. Caswell \\
+1 post-doc \hfill 2 years
+
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH SECTION
+%----------------------------------------------------------------------------------------
+
+%% \section{Outreach}
+%% {\bf Physics with a BANG!}\\
+%% Annual open house and demo extravaganza.  \hfill 2009-2013\\
+%% {\it tour guide, lab representative}
+
+%% {\bf Science club} \hfill 2012-2013 \\
+%% Assist in delivering after-school science club at Andrew Carnegie Elementary School
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Open Source\\Contributions}
+        {\tt Matplotlib} \hfill 2012-Present
+        \begin{itemize}
+  \setlength{\itemsep}{-1pt}
+        \item {\bf Project Lead} \hfill 2016-Present
+        \item{\bf Co-lead Developer}\hfill 2014-2016
+        \item {\bf Release Manager} (1.4, 1.5, 2.0, 2.1, 2.2, 3.0 \& 3.2 series)  \hfill 2014-2018, 2020
+        \end{itemize}
+
+        {\tt h5py}: {\bf Release Manager} (2.7, 2.8, \& 2.9 series)
+        \hfill 2016-2020\\
+        {\tt cycler}: {\bf Lead Developer} \hfill 2015-Present\\
+        {\tt trackpy}, {\tt pims}: {\bf core developer} \hfill 2013-Present \\
+        {\tt pytables}, {\tt numpy}, {\tt scipy}, {\tt conda}, {\tt
+          IPython}, {\tt pandas}, \\ {\tt cython}, {\tt cpython}: {\bf contributor} \hfill sporadic
+
+
+
+\section{Service}
+
+`Scipy tools plenary session' {\bf co-chair} for SciPy \hfill 2018-2021\\
+pydata Global organizing committee  \hfill 2020\\
+pydataNYC organizing committee, extracurricular chair \hfill 2019\\
+Member of {\tt nteract} Code-of-conduct committee \hfill 2018-Present\\
+Recruitment and selection panels for scientific staff at BNL\hfill 2016-Present\\
+`Scipy tool stack' {\bf track chair} for SciPy2017 \hfill 2017\\
+Member of {\tt Matplotlib} financial committee \hfill 2015-Present\\
+Member of {\tt numpy} financial committee \hfill 2015-Present\\
+PyGotham Selection Committee, \hfill 2015\\
+University of Chicago Graduate Admissions Committee \hfill 2009
+
+\section{Awards}
+Brookhaven National Laboratory Lab Award \hfill 2017\\
+Google Open Source Peer Bonus \hfill 2017
+
+\section{Grant Review}
+Chan Zuckerberg Human Cell Atlas \hfill 2018, 2019
+
+\section{Society Membership}
+
+American Physical Society \hfill 2012-2014, 2021\\
+Python Software Foundation (contributing member) \hfill 2018-Present\\
+NumFOCUS (contributing member) \hfill 2016-Present
+
+\section{Publications (selected)}
+
+\begin{enumerate}
+  \setlength{\itemsep}{-1pt}
+  \item Maffettone et al. \textbf{Gaming the beamlines—employing reinforcement
+    learning to maximize scientific outcomes at large-scale user facilities},
+    Machine Learning: Science and Technology (2021) 2, 2, 025025
+  \item Tafliovic et al. \textbf{Teaching Software Engineering with
+    Free Open Source Software Development: An Experience Report},
+    Proceedings of the 52nd Hawaii International Conference on System
+    Sciences (2019)
+
+  \item Thomas A Caswell. \textbf{Dynamics of the vapor layer below a
+    Leidenfrost drop}, PRE 90, 013014 (2014)
+
+  \item Thomas A Caswell et al. \textbf{Observation and
+    Characterization of the Vestige of the Jamming Transition in a
+    Thermal 3D System}, PRE 87, 012303 (2013)
+    % , Zexin Zhang, Margaret L Gardel, and Sidney R Nagel
+
+  \item Thomas A Caswell et al. \textbf{A High Speed Area
+    Detector for Novel Imaging Techniques in a Scanning Transmission
+    Electron Microscope} Ultramicroscopy 109, 304-311 (2009)
+    %, Peter Ercius, Mark W Tate, Alper  Ercan, Sol M Gruner, David A Muller.
+
+\end{enumerate}
+
+\section{Invited Talks (selected)}
+\begin{enumerate}
+    \setlength{\itemsep}{-1pt}
+\item Thomas A. Caswell \textbf{Matplotlib and Scientific Visualization},
+  APS March Meeting (2021-03)
+\item Thomas A. Caswell, \textbf{h5py latest developments}, HDF5
+  European Workshop for Science and Industry (2019-09)
+\item Thomas A. Caswell, \textbf{Matplotlib 2.0: One does not simply
+  change the defaults}, PLOTCON NYC (2016-11)
+\item Thomas A. Caswell, \textbf{Time series exploration with
+  Matplotlib}, PyData DC (2016-10)
+
+\end{enumerate}
+
+
+
+
+\section{Contributed Talks (selected)}
+
+\begin{enumerate}
+    \setlength{\itemsep}{-1pt}
+\item Thomas A Caswell \textbf{Separations of \sout{concerns} scales} PyData
+  Global (2020-11)
+\item Hannah Aizenman and Thomas A. Caswell \textbf{Introduction to
+  Matplotlib} SciPy (2019-07)
+\item Thomas A. Caswell, \textbf{Interactive Matplotlib Tutorial}
+  pydata NYC (2017-11)
+\end{enumerate}
+
+
+
+% \newpage
+
+% \section{Motivation}
+
+% I enjoy building tools, both hardware and software, that enable
+% research that could not be done without those tools.  I have a strong
+% interest in imaging of any modality (optical, x-ray, STEM, CT, etc.)
+% and image analysis, in particular acquiring, processing, and
+% visualizing large multi-dimensional data. I am looking for a post-doc
+% position where I can push the limits of either instrumentation or
+% analysis in the context of condensed matter physics.
+
+% I am aiming to defend my Ph.D. in December 2013 and have the long-term
+% goal of a permanent staff scientist position at a research institute,
+% national lab, or other user facility.
+
+\end{resume}
+
+
+
+\end{document}
